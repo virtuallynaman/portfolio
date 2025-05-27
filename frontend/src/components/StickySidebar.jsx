@@ -19,7 +19,7 @@ function StickySidebar() {
             <ul className="socials-container">
                 <li><a className="link social-links" href="https://github.com/virtuallynaman" target="_blank" rel="noopener noreferrer"><FaGithub className="react-icon" />GITHUB</a></li>
                 <li><a className="link social-links" href="https://www.linkedin.com/in/namanjha/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="react-icon" />LINKEDIN</a></li>
-                <li><a className="link social-links" href="mailto:jhanaman786@gmail.com" target="_blank" rel="noopener noreferrer"><MdEmail className="react-icon" />EMAIL</a></li>
+                <li><a className="link social-links" href="mailto:namanjhacs@gmail.com" target="_blank" rel="noopener noreferrer"><MdEmail className="react-icon" />EMAIL</a></li>
             </ul>
         </div>
     )
