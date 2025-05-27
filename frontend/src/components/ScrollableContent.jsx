@@ -7,10 +7,10 @@ function ScrollableContent() {
             <section id="about" className="section section-scroll-animation about">
                 <h2 className="section-title about">About</h2>
                 <p className="about-section-content">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, laboriosam molestias? Modi dignissimos minus, amet ratione distinctio quasi recusandae maiores perspiciatis quo natus tenetur et ex commodi laboriosam voluptates aspernatur?
+                    I'm a full-stack web developer with a strong focus on building modern, and user-focused applications. I specialize in the PERN stack (PostgreSQL, Express.js, React, Node.js), and I'm constantly learning new tools and technologies to improve my craft. I enjoy solving real-world problems through clean code and a thoughtful design.
                     <br />
                     <br />
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias cumque aut architecto optio fuga molestias nisi doloribus placeat deserunt libero voluptatum debitis labore, nesciunt, deleniti odit! Doloribus quam nisi nobis.
+                    Outside of coding, I like listening to music, reading non-fiction books, and staying curious about how things work. I'm currently looking for opportunities where I can grow, contribute to impactful projects, and work with a passionate team.
                 </p>
             </section>
 
@@ -71,14 +71,18 @@ function ScrollableContent() {
                 <div className="project-section-content">
                     <div className="project section-scroll-animation">
                         <div className="project-title">
-                            <a href="https://starward-budgets.vercel.app/" target='_blank' rel="noopener noreferrer" className='project-link'>Starward Budgets</a> <ArrowUpRightIcon className='project-arrow-icon' />
+                            <a href="https://starward-budgets.vercel.app/" target='_blank' rel="noopener noreferrer" className='project-link'>Starward Budgets</a>
+                            <ArrowUpRightIcon className='project-arrow-icon' />
                         </div>
 
                         <img src="/starward-budgets.png" className="project-demo" alt="Starward budgets project demo" />
 
                         <div className="project-description">
-                            Omnis laboriosam quod quasi inventore nobis quas itaque quidem a, animi sed saepe, officia aspernatur rem fuga molestiae blanditiis necessitatibus quisquam odit minima soluta qui? Placeat perspiciatis facere sit dignissimos?
-                            Ab animi vitae corrupti culpa soluta velit ratione ad voluptas, esse placeat aliquam tempora? Modi dolorem eos quia cupiditate dolores at animi, alias quod corrupti nulla eaque quas rerum enim!
+                            <ul>
+                                <li>Developed a PERN-stack budgeting app that lets users create color-coded budgets, log expenses, and track total/spent/remaining amounts with live progress bars (React, Express, Node).</li>
+                                <li>Designed relational tables for budgets & expenses using PostgreSQL and wrote optimized SQL queries for real-time aggregates.</li>
+                                <li>Implemented JWT-based signup/login to secure personal finance data and deployed the app on Vercel.</li>
+                            </ul>
                         </div>
 
                         <a className="link project-github-link" href="https://github.com/virtuallynaman/starward-budgets" target="_blank" rel="noopener noreferrer">
@@ -94,8 +98,12 @@ function ScrollableContent() {
                         <img src="/starward-notes.png" className="project-demo" alt="Starward notes project demo" />
 
                         <div className="project-description">
-                            Omnis laboriosam quod quasi inventore nobis quas itaque quidem a, animi sed saepe, officia aspernatur rem fuga molestiae blanditiis necessitatibus quisquam odit minima soluta qui? Placeat perspiciatis facere sit dignissimos?
-                            Ab animi vitae corrupti culpa soluta velit ratione ad voluptas, esse placeat aliquam tempora? Modi dolorem eos quia cupiditate dolores at animi, alias quod corrupti nulla eaque quas rerum enim!
+                            <ul>
+                                <li>Created a web app for taking and organizing notes with autosave, pin/archive/trash, background‑color labels, and quick text search (React, Express, Node).</li>
+                                <li>Designed a PostgreSQL schema to persist user notes and user accounts efficiently.</li>
+                                <li>Implemented JWT‑based user authentication for signup/login security.</li>
+                                <li>Wrote vanilla CSS for desktop UI (mobile layout in progress).</li>
+                            </ul>
                         </div>
 
                         <a className="link project-github-link" href="https://github.com/virtuallynaman/starward-notes" target="_blank" rel="noopener noreferrer">
