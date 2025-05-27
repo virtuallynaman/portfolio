@@ -118,7 +118,7 @@ a:visited {
 }
 
 .email-button::after {
-  content: "jhanaman786@gmail.com";
+  content: "namanjhacs@gmail.com";
   position: absolute;
   color: transparent;
   opacity: 0;
@@ -258,7 +258,7 @@ ul {
   margin: 0;
 }
 
-li {
+.sticky-sidebar li {
   list-style: none;
 }
 
