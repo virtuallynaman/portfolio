@@ -79,7 +79,7 @@ function ScrollableContent() {
 
                         <div className="project-description">
                             <ul>
-                                <li>Developed a PERN-stack budgeting app that lets users create color-coded budgets, log expenses, and track total/spent/remaining amounts with live progress bars (React, Express, Node).</li>
+                                <li>Developed a budgeting app that lets users create budgets, log expenses, assign colors to label them, and track total, spent, and remaining balances with live progress bars (React, Express, Node).</li>
                                 <li>Designed relational tables for budgets & expenses using PostgreSQL and wrote optimized SQL queries for real-time aggregates.</li>
                                 <li>Implemented JWT-based signup/login to secure personal finance data and deployed the app on Vercel.</li>
                             </ul>
