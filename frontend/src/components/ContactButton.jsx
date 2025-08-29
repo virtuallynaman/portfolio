@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { MdOutlineEmail, MdOutlineContentCopy, MdCheckCircle, MdCheck } from "react-icons/md"
+import { MdOutlineEmail, MdOutlineContentCopy, MdCheck } from "react-icons/md"
 
 export default function ContactButton() {
     const [hovered, setHovered] = useState(false);

@@ -3,7 +3,7 @@ import { ArrowUpRightIcon } from '@heroicons/react/24/outline';
 
 function ScrollableContent() {
     return (
-        <div className="lg:mr-6 gap-12 content-center flex flex-col main-scroll-animation" id='main'> {/* mr, min-width for other screens */}
+        <div className="lg:mr-6 gap-12 content-center flex flex-col main-scroll-animation" id='main'>
             <section id="about" className="section-scroll-animation">
                 <h2 className="text-3xl">About</h2>
                 <p className="text-xl">
